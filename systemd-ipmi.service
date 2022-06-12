@@ -1,1 +1,10 @@
+[Unit]
+Description=ipmi Fancontrol Service
 
+[Service]
+Type=simple
+ExecStart=/bin/bash /root/fanctl.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
