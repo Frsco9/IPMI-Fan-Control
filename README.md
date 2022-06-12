@@ -10,7 +10,7 @@ install the IPMI tool:
 apt install ipmitool
 
 make sure you have acess to ipmi, for example read the current CPU temperature:
-ipmitool -I lanplus -H 192.168.178.47 -U root -P calvin sdr type temperature
+ipmitool -I lanplus -H <IP> -U <user> -P <password> sdr type temperature
 
 create a bash skript and give him a name (for example "fanctl") :
 nano fanctl.sh
