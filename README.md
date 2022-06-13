@@ -44,5 +44,5 @@ systemctl start ipmi.service
 with this command you see the log file:
 tail -f /var/log/ipmiservice/ipmi.log
 
-Thanks for using the skipt!
+Thanks for using the skript!
 DONATE paypal.me/shoko9
