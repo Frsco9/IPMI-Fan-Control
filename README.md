@@ -24,7 +24,7 @@ save it with ctrl+o (with nano editor)
 leave with ctrl+x
 
 make the skript executable:
-chmod +x /usr/local/sbin/ipmiservice.sh
+chmod +x fanctl.sh
 
 create a log file(to see a timeline of cpu temp and fan rpm):
 mkdir /var/log/ipmiservice
